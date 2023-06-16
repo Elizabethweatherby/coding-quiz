@@ -1,2 +1,1 @@
-# coding-quiz
-a quiz over the fundamentals of JavaScript
+This is a timed quiz on JavaScript fundamentals to store and gauge your high scores and progress. When answering questions, if you guess incorrectly, more time will be subtracted from the clock. When all questions are answered or the timer reaches 0, the quiz is over. From there you can save your score with your initials. 
