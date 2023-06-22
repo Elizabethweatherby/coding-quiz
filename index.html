@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Quiz</title>
+	<link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
-    
+	<div class="panel">
+		<h1>My Awesome Quiz</h1>
+        <div id="play-button">
+            <button onclick="startGame()">PLAY</button>
+        </div>
+        <div class="question" id="ques" style="display: none;"></div>
+        <div class="options" id="opt" style="display: none;"></div>
+		<button onclick="checkAns()" id="btn">SUBMIT</button>
+        <div id="timer" style="display: none;"></div>
+		<div id="score"></div>
+		<script src="assets/style.js"></script>
+	</div>
 </body>
+
 </html>
