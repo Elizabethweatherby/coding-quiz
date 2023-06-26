@@ -138,8 +138,10 @@ function checkAns() {
 }
 
 function loadScore() {
+    document.getElementById("score-page").style.display = "block";
     var totalScore = document.getElementById("score");
     totalScore.textContent = `You scored ${score} out of ${Questions.length}`;
+
 }
 
 // Function to finish quiz and show score

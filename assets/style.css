@@ -41,3 +41,7 @@ button {
 	font-size: 30px;
 	color: darkslategray;
 }
+
+#score-page {
+	display: none;
+}
