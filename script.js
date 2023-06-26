@@ -133,6 +133,7 @@ function checkAns() {
         nextQuestion();
     } else {
         console.log("Incorrect");
+        timerCount -= 10;
         nextQuestion();
     }
 }
